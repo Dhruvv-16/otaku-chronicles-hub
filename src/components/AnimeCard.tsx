@@ -8,7 +8,7 @@ interface AnimeCardProps {
 
 export default function AnimeCard({ anime }: AnimeCardProps) {
   return (
-    <Link to={`/anime/${anime.id}`} className="anime-card block">
+    <Link to={`/anime/${anime.id}`} className="anime-card block group">
       <div className="relative">
         {/* Image Container */}
         <div className="card-image aspect-[2/3] relative overflow-hidden rounded-t-lg">

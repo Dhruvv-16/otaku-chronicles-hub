@@ -183,7 +183,7 @@
 
   /* Anime Card */
   .anime-card {
-    @apply glass-card overflow-hidden group cursor-pointer;
+    @apply glass-card overflow-hidden cursor-pointer;
   }
 
   .anime-card .card-image {
