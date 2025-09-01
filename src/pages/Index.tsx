@@ -68,16 +68,13 @@ const Index = () => {
           
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <div className="glass-card px-6 py-3">
-              <span className="text-2xl font-bangers text-primary">{animeData.length}</span>
-              <span className="text-muted-foreground ml-2">Anime Reviews</span>
+              <span className="text-muted-foreground">Anime Reviews</span>
             </div>
             <div className="glass-card px-6 py-3">
-              <span className="text-2xl font-bangers text-secondary">{genres.length - 1}</span>
-              <span className="text-muted-foreground ml-2">Genres</span>
+              <span className="text-muted-foreground">Genres</span>
             </div>
             <div className="glass-card px-6 py-3">
-              <span className="text-2xl font-bangers text-accent">∞</span>
-              <span className="text-muted-foreground ml-2">Adventures</span>
+              <span className="text-muted-foreground">Adventures</span>
             </div>
           </div>
         </div>
